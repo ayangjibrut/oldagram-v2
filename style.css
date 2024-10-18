@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .75em 1em;
+    /* background-color: bisque; */
+}
+
+.logo {
+    width: 30%;
+}
+
+.user-avatar {
+    width: 7%;
+    border-radius: 50%;
+}
+
+article {
+    border-top: 1px solid gray;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-container {
+    display: flex;
+    padding: .75em 1em;
+}
+
+.user-wrapper {
+    padding-left: .75em;
+}
