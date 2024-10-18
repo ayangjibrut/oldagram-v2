@@ -5,7 +5,7 @@
 
 body {
     font-family: "Source Sans 3", sans-serif;
-    width: 60%;
+    width: 768px;
     margin: auto;
 }
 
@@ -14,7 +14,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: .75em 1em;
-    /* background-color: bisque; */
 }
 
 .logo {
@@ -42,4 +41,38 @@ section {
 
 .user-wrapper {
     padding-left: .75em;
+}
+
+.social-icon {
+    width: 10%;
+    padding: 1em .5em .5em 1em;
+}
+
+.likes-comments {
+    padding: 0 1em;
+    border-bottom: 30px solid #EDEDED;
+}
+
+.likes-comments h4 {
+    padding-bottom: .5em;
+}
+
+small {
+    font-weight: 400;
+    font-size: 1.1em;
+    padding-left: .5em;
+}
+
+@media (max-width: 576px) {
+    body {
+        width: 100%;
+    }
+
+    .user-avatar {
+        width: 12%;
+    }
+
+    .social-icon {
+        width: 14%;
+    }
 }
